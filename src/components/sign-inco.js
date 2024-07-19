@@ -99,7 +99,7 @@ SignInco.defaultProps = {
   action1: 'Sign in',
   text: 'Text',
   image1Alt: 'SignUp Image',
-  image1Src: '/clouds-7989077_1920-1500w.jpg',
+  image1Src: './seg_p2/clouds-7989077_1920-1500w.jpg',
   button: 'Button',
   content1: 'New to our community',
   button1: 'Button',

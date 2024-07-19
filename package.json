@@ -1,20 +1,23 @@
 {
+  "homepage": "http://CZ2508444186.github.io/seg_p2",
   "name": "calm-teeming-zebra",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@craco/craco": "^7.0.0-alpha.0",
+    "prop-types": "15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-router-dom": "^5.2.0",
     "react-helmet": "^6.1.0",
-    "prop-types": "15.7.2"
+    "react-router-dom": "^5.2.0"
   },
   "scripts": {
     "start": "craco start",
     "build": "craco build",
     "test": "craco test --env=jsdom",
-    "eject": "craco eject"
+    "eject": "craco eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "engines": {
     "node": "18.x"
@@ -32,6 +35,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "react-scripts": "^5.0.1"
   }
 }

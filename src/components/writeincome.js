@@ -59,16 +59,16 @@ const Writeincome = (props) => {
 }
 
 Writeincome.defaultProps = {
-  imageSrc: '/home-200h.png',
+  imageSrc: './seg_p2/home-200h.png',
   text: 'Your Income: 0$',
   text2: 'Income',
   imageAlt: 'image',
-  imageSrc3: '/quill-drawing-a-line-200h.png',
+  imageSrc3: './seg_p2/quill-drawing-a-line-200h.png',
   text1: 'Dashboard',
-  imageSrc1: '/dashboard-200h.png',
+  imageSrc1: './seg_p2/dashboard-200h.png',
   text3: 'Writing Guide',
   imageAlt1: 'image',
-  imageSrc2: '/income-200h.png',
+  imageSrc2: './seg_p2/income-200h.png',
   imageAlt3: 'image',
   imageAlt2: 'image',
 }

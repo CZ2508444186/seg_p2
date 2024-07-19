@@ -31,7 +31,7 @@ const NotFoundco = (props) => {
 NotFoundco.defaultProps = {
   image1Alt: 'image',
   heading2: 'Page not found',
-  image1Src: '/huangshan-mountains-5053221_1920-1600w.jpg',
+  image1Src: './seg_p2/huangshan-mountains-5053221_1920-1600w.jpg',
   action1: 'Back to homepage',
 }
 

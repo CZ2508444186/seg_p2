@@ -38,7 +38,7 @@ const Homesearch = (props) => {
 Homesearch.defaultProps = {
   imageAlt: 'image',
   textinputPlaceholder: 'Search',
-  imageSrc: '/search-200h.png',
+  imageSrc: './seg_p2/search-200h.png',
 }
 
 Homesearch.propTypes = {

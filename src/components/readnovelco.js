@@ -126,12 +126,12 @@ const Readnovelco = (props) => {
 }
 
 Readnovelco.defaultProps = {
-  imageSrc: '/home-200h.png',
+  imageSrc: './seg_p2/home-200h.png',
   imageAlt: 'image',
-  imageSrc2: '/right-arrow-200h.png',
+  imageSrc2: './seg_p2/right-arrow-200h.png',
   text4: 'Change theme and fonts here',
   text1: 'Prev Chapter',
-  imageSrc1: '/left-arrow-200h.png',
+  imageSrc1: './seg_p2/left-arrow-200h.png',
   text: 'Novel content will present here\n',
   imageAlt1: 'image',
   imageAlt2: 'image',

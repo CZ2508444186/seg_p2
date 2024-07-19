@@ -241,7 +241,7 @@ const Novel3pageco = (props) => {
 Novel3pageco.defaultProps = {
   text7: 'Chapter 1',
   imageAlt3: 'image',
-  imageSrc2: '/book-200h.png',
+  imageSrc2: './seg_p2/book-200h.png',
   text8: 'Chapter 2',
   text: 'Type:',
   text13: 'Chapter 7',
@@ -252,7 +252,7 @@ Novel3pageco.defaultProps = {
   text1: 'Web Novel(CN)',
   text15: 'add to library',
   text3: 'Action Adventure Fantasy Mature Mystery  Xianxia',
-  imageSrc1: '/guangy-400h.jpg',
+  imageSrc1: './seg_p2/guangy-400h.jpg',
   textareaPlaceholder: 'Enter your message',
   text5: 'Submit',
   text14: 'Chapter 8',
@@ -260,10 +260,10 @@ Novel3pageco.defaultProps = {
   text12: 'Chapter 6',
   imageAlt2: 'image',
   imageAlt: 'image',
-  imageSrc: '/home-200h.png',
+  imageSrc: './seg_p2/home-200h.png',
   text11: 'Chapter 5',
   text2: 'Genre:',
-  imageSrc3: '/add-200h.png',
+  imageSrc3: './seg_p2/add-200h.png',
 }
 
 Novel3pageco.propTypes = {

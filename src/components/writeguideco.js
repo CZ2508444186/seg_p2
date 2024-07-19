@@ -66,13 +66,13 @@ Writeguideco.defaultProps = {
   text1: 'Income',
   text: 'Dashboard',
   text2: 'Writing Guide',
-  imageSrc3: '/quill-drawing-a-line-200h.png',
+  imageSrc3: './seg_p2/quill-drawing-a-line-200h.png',
   imageAlt3: 'image',
-  imageSrc1: '/dashboard-200h.png',
-  imageSrc2: '/income-200h.png',
+  imageSrc1: './seg_p2/dashboard-200h.png',
+  imageSrc2: './seg_p2/income-200h.png',
   imageAlt: 'image',
   imageAlt1: 'image',
-  imageSrc: '/home-200h.png',
+  imageSrc: './seg_p2/home-200h.png',
   imageAlt2: 'image',
 }
 

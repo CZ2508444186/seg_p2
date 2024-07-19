@@ -227,11 +227,11 @@ const Novel2pageco = (props) => {
 }
 
 Novel2pageco.defaultProps = {
-  imageSrc: '/home-200h.png',
+  imageSrc: './seg_p2/home-200h.png',
   text15: 'add to library',
-  imageSrc3: '/add-200h.png',
-  imageSrc1: '/woyufengtian-400h.jpg',
-  imageSrc2: '/book-200h.png',
+  imageSrc3: './seg_p2/add-200h.png',
+  imageSrc1: './seg_p2/woyufengtian-400h.jpg',
+  imageSrc2: './seg_p2/book-200h.png',
   text8: 'Chapter 2',
   text11: 'Chapter 5',
   text13: 'Chapter 7',

@@ -120,7 +120,7 @@ const Signupcp = (props) => {
 }
 
 Signupcp.defaultProps = {
-  image1Src: '/huangshan-mountains-5053221_1920-1400w.jpg',
+  image1Src: './seg_p2/huangshan-mountains-5053221_1920-1400w.jpg',
   action1: 'Create an account',
   heading1: 'Create an account',
   image1Alt: 'SignUp Image',

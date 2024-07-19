@@ -62,13 +62,13 @@ CNfooter.defaultProps = {
   imageAlt1: 'image',
   linkLink: '',
   text: '帮助中心',
-  imageSrc: '/facebook-200h.png',
-  imageSrc1: '/twitter-200h.png',
+  imageSrc: './seg_p2/facebook-200h.png',
+  imageSrc1: './seg_p2/twitter-200h.png',
   imageAlt: 'image',
   text1: '隐私政策',
   imageAlt2: 'image',
   link: '终点文学网',
-  imageSrc2: '/instagram-200h.png',
+  imageSrc2: './seg_p2/instagram-200h.png',
   text2: '© 2024 Destination Literature',
 }
 

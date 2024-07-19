@@ -59,7 +59,7 @@ const Footer = (props) => {
 
 Footer.defaultProps = {
   imageSrc: 'https://play.teleporthq.io/static/svg/default-img.svg',
-  imageSrc4: '/instagram-400h.png',
+  imageSrc4: './seg_p2/instagram-400h.png',
   rootClassName: '',
   cookiesLink: 'Cookies Policy',
   link5: 'Privacy Policy',
@@ -76,9 +76,9 @@ Footer.defaultProps = {
   imageAlt4: 'image',
   imageAlt3: 'image',
   link3: 'FAQ',
-  imageSrc2: '/facebook-400h.png',
+  imageSrc2: './seg_p2/facebook-400h.png',
   link4: 'Terms and Conditions',
-  imageSrc3: '/twitter-400h.png',
+  imageSrc3: './seg_p2/twitter-400h.png',
   heading: 'Heading',
 }
 

@@ -234,13 +234,13 @@ const Novelpageco = (props) => {
 }
 
 Novelpageco.defaultProps = {
-  imageSrc21: '/home-200h.png',
+  imageSrc21: './seg_p2/home-200h.png',
   text14: 'Chapter 7',
   text15: 'Chapter 8',
   imageSrc: 'ad895943-c3a2-4e9d-a4af-69c450e546cc',
   imageAlt21: 'image',
   text12: 'Chapter 5',
-  imageSrc3: '/add-200h.png',
+  imageSrc3: './seg_p2/add-200h.png',
   text3: 'Genre:',
   text8: 'Chapter 1',
   imageAlt2: 'image',
@@ -248,7 +248,7 @@ Novelpageco.defaultProps = {
   text10: 'Chapter 3',
   text: 'Description',
   imageAlt3: 'image',
-  imageSrc2: '/book-200h.png',
+  imageSrc2: './seg_p2/book-200h.png',
   text11: 'Chapter 4',
   text9: 'Chapter 2',
   text13: 'Chapter 6',
@@ -259,7 +259,7 @@ Novelpageco.defaultProps = {
   text7: 'Chapter List',
   text5: 'Submit',
   imageAlt1: 'image',
-  imageSrc1: '/guzhenren-300w.jpg',
+  imageSrc1: './seg_p2/guzhenren-300w.jpg',
   text1: 'Type:',
 }
 

@@ -44,11 +44,11 @@ const Bookshelfco = (props) => {
 Bookshelfco.defaultProps = {
   imageAlt1: 'image',
   imageAlt2: 'image',
-  imageSrc1: '/guzhenren-300w.jpg',
+  imageSrc1: './seg_p2/guzhenren-300w.jpg',
   imageSrc: 'ad895943-c3a2-4e9d-a4af-69c450e546cc',
   imageAlt: 'image',
   linkText: 'https://example.com',
-  imageSrc2: '/home-200h.png',
+  imageSrc2: './seg_p2/home-200h.png',
   heading: 'Your Books:',
 }
 

@@ -100,7 +100,7 @@ const CNnovelco = (props) => {
           </div>
           <div id="reviews" className="c-nnovelco-container09">
             <h1>
-              <span>Reviews</span>
+              <span>评论区</span>
               <br></br>
             </h1>
           </div>
@@ -185,30 +185,30 @@ const CNnovelco = (props) => {
 
 CNnovelco.defaultProps = {
   text2: '作品标签:',
-  textareaPlaceholder: 'Enter your message',
+  textareaPlaceholder: '前无马',
   text15: '第八节',
   text11: '第四节',
   imageAlt1: 'image',
-  imageSrc3: '/add-200h.png',
+  imageSrc3: './seg_p2/add-200h.png',
   text14: '第七节',
   imageAlt3: 'image',
-  imageSrc1: '/guzhenren-300w.jpg',
+  imageSrc1: './seg_p2/guzhenren-300w.jpg',
   text4: '小说简介：',
   text12: '第五节',
-  imageSrc: '/home-200h.png',
+  imageSrc: './seg_p2/home-200h.png',
   text16: '    加入书架',
   text8: '第一节',
   text7: '章节',
   text13: '第六节',
   text10: '第三节',
-  imageSrc2: '/book-200h.png',
+  imageSrc2: './seg_p2/book-200h.png',
   text1: '网络文学',
   text9: '第二节',
   text6: '主页',
   text: '类别:',
   imageAlt: 'image',
   imageAlt2: 'image',
-  text5: 'Submit',
+  text5: '评论',
   text3: '冒险 奇幻 玄幻 仙侠 修真',
 }
 

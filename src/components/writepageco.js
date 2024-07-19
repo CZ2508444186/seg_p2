@@ -78,10 +78,10 @@ const Writepageco = (props) => {
 Writepageco.defaultProps = {
   imageAlt: 'image',
   rootClassName: '',
-  imageSrc1: '/signature-200h.png',
-  imageSrc5: '/home-200h.png',
+  imageSrc1: './seg_p2/signature-200h.png',
+  imageSrc5: './seg_p2/home-200h.png',
   imageAlt2: 'image',
-  imageSrc2: '/dashboard-200h.png',
+  imageSrc2: './seg_p2/dashboard-200h.png',
   text2: 'Writing Guide',
   imageAlt4: 'image',
   text: 'Dashboard',
@@ -89,8 +89,8 @@ Writepageco.defaultProps = {
   imageSrc: 'ad895943-c3a2-4e9d-a4af-69c450e546cc',
   imageAlt1: 'image',
   text1: 'Income',
-  imageSrc3: '/income-200h.png',
-  imageSrc4: '/quill-drawing-a-line-200h.png',
+  imageSrc3: './seg_p2/income-200h.png',
+  imageSrc4: './seg_p2/quill-drawing-a-line-200h.png',
   imageAlt3: 'image',
 }
 

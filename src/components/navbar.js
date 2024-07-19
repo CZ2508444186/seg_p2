@@ -215,9 +215,9 @@ Navbar.defaultProps = {
   page4ImageAlt: 'image',
   logoSrc:
     'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/84ec08e8-34e9-42c7-9445-d2806d156403/fac575ac-7a41-484f-b7ac-875042de11f8?org_if_sml=1&force_format=original',
-  imageSrc4: '/category-200h.png',
+  imageSrc4: './seg_p2/category-200h.png',
   page1Description: 'Welcome to our novel collection!',
-  imageSrc3: '/three-books-200h.png',
+  imageSrc3: './seg_p2/three-books-200h.png',
   page4: 'Contact',
   rootClassName: '',
   page1: 'Home',
@@ -236,7 +236,7 @@ Navbar.defaultProps = {
     'https://images.unsplash.com/photo-1515704089429-fd06e6668458?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMDQxMDI0M3w&ixlib=rb-4.0.3&q=80&w=1080',
   page2ImageSrc:
     'https://images.unsplash.com/photo-1598931285896-8890e03b2266?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMDQxMDI0M3w&ixlib=rb-4.0.3&q=80&w=1080',
-  imageSrc5: '/signature-200h.png',
+  imageSrc5: './seg_p2/signature-200h.png',
   page3Description: 'Explore our wide range of novels.',
   action1: 'Main Action',
   page4ImageSrc:
@@ -250,8 +250,8 @@ Navbar.defaultProps = {
   imageAlt5: 'image',
   page1ImageAlt: 'image',
   link2: '/about',
-  imageSrc6: '/forum-200h.png',
-  imageSrc: '/refer-200h.png',
+  imageSrc6: './seg_p2/forum-200h.png',
+  imageSrc: './seg_p2/refer-200h.png',
 }
 
 Navbar.propTypes = {
