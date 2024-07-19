@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
@@ -6,6 +6,25 @@ import PropTypes from 'prop-types'
 import './forumco.css'
 
 const Forumco = (props) => {
+  const [inputText, setInputText] = useState('');
+    
+  const [listItems, setListItems] = useState([]);
+  const [blogCount, setBlogCount] = useState(1);
+  
+    
+  const handleTextareaChange = (event) => {
+    setInputText(event.target.value);
+  };
+  
+  
+  const handleSubmit = () => {
+    if (inputText.trim()) {  
+      const newItem = `Blog ${blogCount}: ${inputText}`; 
+      setListItems([...listItems, newItem]);  
+      setInputText('');  
+      setBlogCount(blogCount + 1);  
+    }
+  };
   return (
     <div className="forumco-container">
       <div className="forumco-container1">
@@ -77,48 +96,23 @@ const Forumco = (props) => {
       <div className="forumco-container6">
         <div className="forumco-container7">
           <ul className="forumco-ul2 list">
-            <li className="forumco-li6 list-item">
-              <a
-                href={props.linkText5}
-                target="_blank"
-                rel="noreferrer noopener"
-                className="forumco-link"
-              >
-                <span>Blog 1</span>
-                <br></br>
-                <br></br>
-              </a>
-            </li>
-            <li className="forumco-li7 list-item">
-              <a
-                href={props.linkText6}
-                target="_blank"
-                rel="noreferrer noopener"
-                className="forumco-link1"
-              >
-                {props.text6}
-              </a>
-            </li>
-            <li className="forumco-li8 list-item">
-              <a
-                href={props.linkText7}
-                target="_blank"
-                rel="noreferrer noopener"
-                className="forumco-link2"
-              >
-                {props.text7}
-              </a>
-            </li>
+            {listItems.map((item, index) => (
+              <li key={index} className="forumco-li6 list-item">
+                {item}
+              </li>
+            ))}
           </ul>
         </div>
         <div className="forumco-container8">
           <textarea
+            value={inputText}
+            onChange={handleTextareaChange}
             id="contact-form-3-message"
             rows="3"
             placeholder={props.textareaPlaceholder}
             className="forumco-textarea thq-input"
           ></textarea>
-          <button type="button" className="forumco-button1 button">
+          <button onClick={handleSubmit} type="button" className="forumco-button1 button">
             <span className="forumco-text7">{props.text}</span>
           </button>
         </div>

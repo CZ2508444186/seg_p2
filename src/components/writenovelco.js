@@ -1,11 +1,24 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, { useState }  from 'react'
+import { Link, useHistory } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
 import './writenovelco.css'
 
 const Writenovelco = (props) => {
+  const [text, setText] = useState('');
+  const [entries, setEntries] = useState([]);
+
+  const handleTextChange = (event) => {
+    setText(event.target.value);
+  };
+
+  const handleSubmit = () => {
+    if (text.trim()) {
+      setEntries(prevEntries => [`Book: ${text}`, ...prevEntries]);
+      setText('');
+    }
+  };
   return (
     <div className="writenovelco-container">
       <div className="writenovelco-container1">
@@ -51,12 +64,20 @@ const Writenovelco = (props) => {
           </div>
         </div>
         <div className="writenovelco-container5">
+          {/* 显示提交的内容 */}
+          {entries.map((entry, index) => (
+            <div key={index} className="writenovelco-entry">
+              {entry}
+            </div>
+          ))}
           <textarea
             placeholder={props.textareaPlaceholder}
             className="writenovelco-textarea textarea"
+            value={text}
+            onChange={handleTextChange}
           ></textarea>
-          <button type="button" className="writenovelco-button button">
-            <span className="writenovelco-text6">{props.text}</span>
+          <button type="button" className="writenovelco-button button" onClick={handleSubmit}>
+            Submit<span className="writenovelco-text6">{props.text}</span>
           </button>
         </div>
       </div>

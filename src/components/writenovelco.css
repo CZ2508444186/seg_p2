@@ -200,26 +200,24 @@
   justify-content: center;
 }
 .writenovelco-textarea {
-  width: 100%;
-  height: 540px;
-  margin-bottom: 0px;
+  width: 100%; /* 确保文本区域宽度合适 */
+  height: 200px; /* 调整文本区域高度 */
+  margin-top: 20px; /* 在条目容器下方留出空间 */
 }
+
 .writenovelco-button {
-  width: 116px;
-  height: 48px;
-  position: relative;
-  align-self: center;
-  box-shadow: 5px 5px 10px 0px #efefef;
-  margin-top: var(--dl-space-space-oneandhalfunits);
-  transition: 0.3s;
-  margin-left: 1033px;
-  border-color: #c5c1c1;
-  border-radius: var(--dl-radius-radius-inputradius);
-  text-transform: uppercase;
+  width: 120px; /* 调整按钮宽度 */
+  height: 40px; /* 调整按钮高度 */
+  margin-top: 10px; /* 在文本区域下方留出空间 */
+  background-color: #bbbdbf; /* 按钮背景色 */
+  color: white; /* 按钮文字颜色 */
+  border: none; /* 去除边框 */
+  border-radius: 4px; /* 按钮圆角 */
+  cursor: pointer; /* 鼠标悬停指针变换 */
+  transition: background-color 0.3s; /* 平滑过渡效果 */
 }
 .writenovelco-button:hover {
-  width: 137px;
-  height: 50px;
+  background-color: #0056b3;
 }
 .writenovelco-text6 {
   top: 14px;
@@ -233,4 +231,22 @@
   margin-right: auto;
   margin-bottom: auto;
   text-transform: capitalize;
+}
+
+.writenovelco-entry-container {
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc; /* 添加底部边界来区分条目 */
+  margin-bottom: 20px;
+}
+
+/* 单个条目样式 */
+.writenovelco-entry {
+  font-size: 16px;
+  color: #333;
+  padding: 8px;
+  background-color: #f9f9f9; /* 轻微背景色区分 */
+  border-radius: 4px; /* 圆角 */
+  margin: 4px 0; /* 适当间隔 */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* 轻微阴影提升层次感 */
 }
