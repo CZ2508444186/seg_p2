@@ -1,0 +1,74 @@
+.homesearch-container {
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.homesearch-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homesearch-container2 {
+  flex: 0 0 auto;
+  width: 500px;
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.homesearch-text {
+  font-family: "Amaranth";
+  margin-left: 170px;
+  margin-right: 0px;
+}
+.homesearch-text1 {
+  font-size: 30px;
+}
+.homesearch-container3 {
+  flex: 0 0 auto;
+  width: 472px;
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.homesearch-textinput {
+  width: 413px;
+  height: 55px;
+  font-size: 20px;
+  align-self: center;
+}
+.homesearch-button {
+  width: auto;
+  height: 55px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: #ebebeb;
+}
+.homesearch-image {
+  width: 30px;
+  height: 30px;
+  align-self: center;
+  object-fit: cover;
+}
+.homesearch-container4 {
+  flex: 0 0 auto;
+  width: 500px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+  margin-right: 5px;
+  flex-direction: column;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}

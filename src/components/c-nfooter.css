@@ -1,0 +1,87 @@
+.c-nfooter-max-width {
+  gap: var(--dl-space-space-threeunits);
+  display: flex;
+  position: relative;
+  margin-top: 0px;
+  align-items: center;
+  flex-direction: column;
+}
+.c-nfooter-link {
+  color: rgb(222, 0, 0);
+  font-size: 50px;
+  font-family: "Zhi Mang Xing";
+  margin-left: 0px;
+}
+.c-nfooter-content {
+  gap: var(--dl-space-space-twounits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.c-nfooter-logo {
+  gap: 24px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.c-nfooter-links {
+  gap: var(--dl-space-space-twounits);
+  display: flex;
+  align-items: flex-start;
+}
+.c-nfooter-navlink {
+  font-size: 20px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.c-nfooter-navlink:hover {
+  font-size: 23px;
+  text-decoration:    none;
+}
+.c-nfooter-navlink1 {
+  font-size: 20px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.c-nfooter-navlink1:hover {
+  font-size: 23px;
+}
+.c-nfooter-credits {
+  gap: var(--dl-space-space-twounits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.c-nfooter-row {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+.c-nfooter-container {
+  display: flex;
+  align-items: flex-start;
+}
+.c-nfooter-image {
+  width: 50px;
+  object-fit: cover;
+  margin-left: 991px;
+}
+.c-nfooter-image1 {
+  width: 50px;
+  object-fit: cover;
+}
+.c-nfooter-image2 {
+  width: 50px;
+  object-fit: cover;
+}
+.c-nfooter-footer-links {
+  gap: 24px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: flex-start;
+}

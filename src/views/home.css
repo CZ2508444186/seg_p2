@@ -1,0 +1,12 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.home-navlink {
+  display: contents;
+}
+.home-home {
+  text-decoration: none;
+}

@@ -1,0 +1,210 @@
+.writeguideco-container {
+  flex: 0 0 auto;
+  width: 1397px;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.writeguideco-container1 {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  justify-content: flex-start;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.writeguideco-navlink {
+  width: 109px;
+  height: 48px;
+  display: flex;
+  position: relative;
+  align-self: flex-start;
+  box-shadow: 5px 5px 10px 0px #efefef;
+  margin-top: var(--dl-space-space-halfunit);
+  transition: 0.3s;
+  border-color: #c5c1c1;
+  border-radius: var(--dl-radius-radius-inputradius);
+  flex-direction: row;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.writeguideco-navlink:hover {
+  width: 112px;
+  height: 51px;
+}
+.writeguideco-text {
+  top: 14px;
+  right: 0px;
+  position: absolute;
+  font-style: normal;
+  margin-top: 0px;
+  font-weight: 700;
+  margin-right: 20px;
+  text-transform: capitalize;
+}
+.writeguideco-image {
+  top: 11px;
+  left: -1px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  margin-top: 0px;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: 0s;
+  margin-bottom: 0px;
+}
+.writeguideco-container2 {
+  width: 100%;
+  height: 636px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.writeguideco-container3 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 641px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.writeguideco-container4 {
+  width: 213px;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+}
+.writeguideco-navlink1 {
+  width: 134px;
+  height: 47px;
+  position: relative;
+  align-self: center;
+  box-shadow: 5px 5px 10px 0px #efefef;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  transition: 0.3s;
+  margin-left: 0px;
+  border-color: #c5c1c1;
+  border-radius: var(--dl-radius-radius-inputradius);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.writeguideco-navlink1:hover {
+  width: 137px;
+  height: 50px;
+}
+.writeguideco-image1 {
+  top: 12px;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  object-fit: cover;
+}
+.writeguideco-text03 {
+  top: 14px;
+  right: 12px;
+  position: absolute;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.writeguideco-navlink2 {
+  width: 108px;
+  height: 47px;
+  position: relative;
+  align-self: center;
+  box-shadow: 5px 5px 10px 0px #efefef;
+  margin-top: var(--dl-space-space-fourunits);
+  transition: 0.3s;
+  margin-left: 0px;
+  border-color: #c5c1c1;
+  border-radius: var(--dl-radius-radius-inputradius);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.writeguideco-navlink2:hover {
+  width: 111px;
+  height: 50px;
+}
+.writeguideco-image2 {
+  top: 14px;
+  left: 12px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  object-fit: cover;
+}
+.writeguideco-text04 {
+  top: 14px;
+  right: 13px;
+  position: absolute;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.writeguideco-navlink3 {
+  width: 184px;
+  height: 47px;
+  position: relative;
+  align-self: center;
+  box-shadow: 5px 5px 10px 0px #efefef;
+  margin-top: var(--dl-space-space-fourunits);
+  transition: 0.3s;
+  margin-left: 0px;
+  border-color: #c5c1c1;
+  border-radius: var(--dl-radius-radius-inputradius);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.writeguideco-navlink3:hover {
+  width: 187px;
+  height: 50px;
+}
+.writeguideco-image3 {
+  top: 12px;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  object-fit: cover;
+}
+.writeguideco-text05 {
+  top: 14px;
+  right: 26px;
+  position: absolute;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.writeguideco-container5 {
+  flex: 0 0 auto;
+  width: 1181px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.writeguideco-text06 {
+  height: 45px;
+  font-size: 3.5em;
+  align-self: center;
+  font-style: normal;
+  font-family: "Raleway";
+  font-weight: 500;
+  margin-bottom: 100px;
+}

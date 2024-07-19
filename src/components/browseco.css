@@ -1,0 +1,126 @@
+.browseco-container {
+  display: flex;
+  width: 100%;
+  /* Adjust sidebar distance from the left edge */
+}
+
+.sidebar {
+  width: 800px;
+  flex-direction: column;
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  margin-left: 200px;
+}
+
+.toggle-sidebar {
+  background: #e7e6e6;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  width: 150px;
+  padding: 10px 20px;
+  font-size: 23px;
+  cursor: pointer;
+  margin: 5px 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  display: flex;
+
+  align-items: center;
+}
+
+.arrow {
+  margin-left: 0px; /* Adds space between the text and the arrow */
+}
+
+.hidden {
+  display: none;
+}
+
+.genre-button {
+  background: white;
+  border: 1px solid #ccc; /* Invisible border when not active or hovered */
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 8px 5px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+}
+
+.sort-button{
+  background: white;
+  border: 1px solid #ccc; /* Invisible border when not active or hovered */
+  border-radius: 25px;
+  padding: 10px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 8px 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+}
+
+.toggle-sidebar:hover, .genre-button:hover, .sort-button:hover,
+.toggle-sidebar.active, .genre-button.active, .sort-button.active-sort  {
+  background-color: #007bff;
+  color: white;
+}
+
+.content {
+  flex-grow: 1;
+  padding-right: 20px;
+  margin-left:80px;
+  margin-top:20px;
+}
+
+.sort-options {
+  display: flex;
+  margin-left: 100px;/* Center sorting buttons */
+  padding: 10px;
+}
+
+.novel-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 200px;/* Center novels below the sort options */
+  margin-top: 10px;
+}
+
+.novel-item {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  margin-top: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  text-align: center;
+  color: #0dcaf0;
+}
+
+.novel-link {
+  text-decoration: none; /* Removes underline from links */
+  color: inherit; /* Inherits color from parent for consistency */
+}
+
+.novel-cover {
+  width: 200px;
+  height: 280px;
+  transition: transform 0.3s ease;
+}
+
+.novel-title {
+  transition: text-decoration 0.3s ease;  /* Smooth transformation */
+}
+
+.novel-link:hover .novel-cover {
+  transform: scale(1.05); /* Slightly enlarges the elements */
+}
+
+.novel-link:hover .novel-title {
+  text-decoration: underline; /* Adds an underline to the title on hover */
+}
+
+
