@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types';
 import './browseco.css';
 
@@ -9,10 +10,10 @@ const genres = [
 ];
 
 const novels = [
-  { title: "Reverend Insanity", genres: ["Fantasy", "Adventure", "Action","Xianxia", "Mystery"], cover: "./seg_p2/guzhenren-300w.jpg", popularity: 90, trending: 85, lastUpdated: '2022-01-10', url: "./novelpage"},
-  { title: "I Shall Seal the Heavens", genres: ["Xianxia", "Mystery","Comedy", "Action","Adventure"], cover: "./seg_p2/woyufengtian-300w.jpg", popularity: 75, trending: 95, lastUpdated: '2024-03-15', url: "./novel2page"},
-  { title: "A Record of a Mortal's Journey to Immortality", genres: ["Fantasy", "Xianxia","Action","Adventure","Mature"], cover: "./seg_p2/fanren-300w.jpg", popularity: 88, trending: 70, lastUpdated: '2023-12-01', url: "./novel3page"},
-  { title: "Beyond the Timescape", genres: ["Fantasy", "Xianxia","Action","Adventure","Mature"], cover: "./seg_p2/guangy-300w.jpg", popularity: 87, trending: 80, lastUpdated: '2023-12-01', url: "./novel4page"},
+  { title: "Reverend Insanity", genres: ["Fantasy", "Adventure", "Action","Xianxia", "Mystery"], cover: "./seg_p2/guzhenren-300w.jpg", popularity: 90, trending: 85, lastUpdated: '2022-01-10', url: "/novelpage"},
+  { title: "I Shall Seal the Heavens", genres: ["Xianxia", "Mystery","Comedy", "Action","Adventure"], cover: "./seg_p2/woyufengtian-300w.jpg", popularity: 75, trending: 95, lastUpdated: '2024-03-15', url: "/novel2page"},
+  { title: "A Record of a Mortal's Journey to Immortality", genres: ["Fantasy", "Xianxia","Action","Adventure","Mature"], cover: "./seg_p2/fanren-300w.jpg", popularity: 88, trending: 70, lastUpdated: '2023-12-01', url: "/novel3page"},
+  { title: "Beyond the Timescape", genres: ["Fantasy", "Xianxia","Action","Adventure","Mature"], cover: "./seg_p2/guangy-300w.jpg", popularity: 87, trending: 80, lastUpdated: '2023-12-01', url: "/novel4page"},
   { title: "Epic of the Forsaken Hero", genres: ["Fantasy", "Adventure"], cover: "./seg_p2/book-200h.png", popularity: 90, trending: 85, lastUpdated: '2022-01-10', url: "./not-found"},
   { title: "Mysteries of the East", genres: ["Xianxia", "Mystery"], cover: "./seg_p2/book-200h.png", popularity: 75, trending: 95, lastUpdated: '2024-03-15', url: "./not-found"},
   { title: "School of Magic", genres: ["Fantasy", "School Life"], cover: "./seg_p2/book-200h.png", popularity: 88, trending: 70, lastUpdated: '2023-12-01', url: "./not-found"},
@@ -77,10 +78,10 @@ const Browseco = ({ heading }) => {
           <div className="novel-list">
             {filteredNovels.map(novel => (
                 <div key={novel.title} className="novel-item">
-                  <a href={novel.url} className="novel-link">
+                  <Link to={novel.url} className="novel-link">
                     <img src={novel.cover} alt={novel.title} className="novel-cover"/>
                     <h3 className="novel-title">{novel.title}</h3>
-                  </a>
+                    </Link>
                 </div>
             ))}
           </div>
