@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
 
 import './sign-inco.css'
@@ -72,13 +72,12 @@ const SignInco = (props) => {
             <p className="thq-body-large">{props.content1}</p>
             <div className="sign-inco-divider2"></div>
           </div>
-          <button
-            type="button"
-            className="sign-inco-button1 thq-button-outline"
-          >
+          <button type="button" className="sign-inco-button1 thq-button-outline">
+          <Link to="/signup" className="signup">
             <span className="sign-inco-text7 thq-body-small">
               {props.action2}
             </span>
+          </Link>
           </button>
         </div>
       </div>
